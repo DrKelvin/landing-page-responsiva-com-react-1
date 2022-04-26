@@ -24,10 +24,10 @@ export default function(){
       </button>
 
       <div className="sponsorship">
-        <img src={ImgSponsorshipDataBiz} alt="image " />
-        <img className="img-audio-phile" src={ImgSponsorshipAudioPhile} alt="" />
-        <img src={ImgSponsorshipMeet} alt="" />
-        <img src={ImgSponsorshipMaker} alt="" />
+        <img src={ImgSponsorshipDataBiz} alt="sponsorship image from DataBiz" />
+        <img className="img-audio-phile" src={ImgSponsorshipAudioPhile} alt="sponsorship image from AudioPhile" />
+        <img src={ImgSponsorshipMeet} alt="sponsorship image from Meet" />
+        <img src={ImgSponsorshipMaker} alt="sponsorship image from Maker" />
       </div>
       
     </div>

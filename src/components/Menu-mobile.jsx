@@ -22,24 +22,24 @@ export default function(){
             const features_collapse = document.getElementById("features-collapse");
             features_collapse.classList.toggle("show");
           }}>
-            <img src={IconArrowDown} alt="" />
+            <img src={IconArrowDown} alt="arrow down icon" />
           </button>
         </li>
           <ul id="features-collapse">
             <li>
-              <img src={IconToDo} alt="" />
+              <img src={IconToDo} alt="to do list icon" />
               <a href="#">Todo List</a>
             </li>
             <li>
-              <img src={IconCalendar} alt="" />
+              <img src={IconCalendar} alt="calendar icon" />
               <a href="#">Calendar</a>
             </li>
             <li>
-              <img src={IconReminders} alt="" />
+              <img src={IconReminders} alt="bell icon" />
               <a href="#">Reminders</a>
             </li>
             <li>
-              <img src={IconPlanning} alt="" />
+              <img src={IconPlanning} alt="clock icon" />
               <a href="#">Planning</a>
             </li>
           </ul>
@@ -49,7 +49,7 @@ export default function(){
             const company_collapse = document.getElementById("company-collapse");
             company_collapse.classList.toggle("show");
           }}>
-            <img src={IconArrowDown} alt="" />
+            <img src={IconArrowDown} alt="arrow down icon" />
           </button>
         </li>
           <ul id="company-collapse">
